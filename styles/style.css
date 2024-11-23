@@ -1,0 +1,39 @@
+:root {
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    --Blue: hsl(248, 32%, 49%);
+    --DarkBlue: hsl(249, 10%, 26%);
+    --GrayishBlue: hsl(246, 25%, 77%); 
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--Red);
+}
+main {
+    padding: 1.2rem;
+}
+
+
+/* Text design. */
+p {
+    color: var(--White);
+}
+.intro-paragraph {
+    text-align: center;
+}
+.blue-pop {
+    background-color: var(--Blue);
+    padding: 0.5rem 0.8rem;
+    margin: 3rem 0 1rem 0;
+    border-radius: 1rem;
+}
+.blue-paragraph {
+    text-align: center;
+    font-weight: 200;
+}
+.blue-span {
+    font-weight: 700;
+}
