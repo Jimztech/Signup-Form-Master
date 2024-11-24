@@ -18,6 +18,9 @@ main {
 
 
 /* Text design. */
+h1 {
+    text-align: center;
+}
 p {
     color: var(--White);
 }
@@ -37,3 +40,15 @@ p {
 .blue-span {
     font-weight: 700;
 }
+
+
+/* Mobile dedicated design */
+@media (max-width: 27rem) {
+    main {
+        background-image: url(/images/bg-intro-mobile.png);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+}
+
+/* Form design */
