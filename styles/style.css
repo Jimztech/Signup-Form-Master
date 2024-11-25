@@ -20,12 +20,15 @@ main {
 /* Text design. */
 h1 {
     text-align: center;
+    color: var(--White);
+    font-weight: 600;
 }
 p {
     color: var(--White);
 }
 .intro-paragraph {
     text-align: center;
+    opacity: 0.8;
 }
 .blue-pop {
     background-color: var(--Blue);
@@ -43,12 +46,57 @@ p {
 
 
 /* Mobile dedicated design */
-@media (max-width: 27rem) {
+@media (max-width: 28rem) {
     main {
         background-image: url(/images/bg-intro-mobile.png);
         background-repeat: no-repeat;
         background-position: top;
     }
+    input[type=text] {
+        border: 1px solid #b9b6d3;
+        width: 75%;
+        padding: 18px 35px;
+        border-radius: 5px;
+    }
+    input[type=submit] {
+        width: 100%;
+        padding: 18px 35px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    /* Text design */
+    .blue-span {
+        display: block;
+    }
+    .highlighted-consent {
+        font-weight: 700;
+        color: var(--Red);
+    }
 }
 
 /* Form design */
+.form-design {
+    background-color: var(--White);
+    padding: 1rem;
+    border-radius: 10px;
+}
+input[type=text], input[type=submit] {
+    margin: 8px 0;
+}
+input[type=text] {
+    color: var(--DarkBlue);
+    font-size: 1rem;
+    font-weight: 700;
+}
+input[type=submit] {
+    background-color: var(--Green);
+    color: var(--White);
+}
+.consent-text {
+    text-align: center;
+}
+.consent-paragraph {
+    font-size: 12px;
+    color: var(--GrayishBlue);
+}
