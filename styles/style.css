@@ -230,3 +230,25 @@ input[type=submit] {
         color: var(--Red);
     }
 }
+
+
+/* Js validation */
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+    display: none;
+    text-align: right;
+}
+
+#submit.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.welcome-page {
+    background-color: var(--White);
+    padding: 2rem;
+    border-radius: 0.7rem;
+}
+.welcome-heading, .welcome-paragraph {
+    color: var(--DarkBlue);
+}
