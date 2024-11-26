@@ -178,3 +178,55 @@ input[type=submit] {
 }
 
 
+/* Desktop or laptop view */
+@media (min-width: 56rem) {
+    body {
+        background-image: url(/images/bg-intro-desktop.png);
+        background-repeat: repeat;
+        background-position: bottom;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 4rem;
+    }
+    .form-design {
+        padding: 2.5rem 2.5rem;
+    }
+    input[type=text] {
+        border: 1px solid #b9b6d3;
+        width: 84%;
+        padding: 18px 35px;
+        border-radius: 5px;
+    }
+    input[type=submit] {
+        width: 100%;
+        padding: 18px 35px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 10px 6px -5px rgba(0, 0, 0, 0.2);
+        font-size: 1.125rem;
+        letter-spacing: 3px;
+    }
+    .first-half {
+        align-self: center;
+    }
+    h1, .intro-paragraph {
+        text-align: left;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .intro-paragraph {
+        max-width: 31.25rem;
+    }
+    /* Text design */
+    .blue-span {
+        display: block;
+    }
+    .highlighted-consent {
+        font-weight: 700;
+        color: var(--Red);
+    }
+}
