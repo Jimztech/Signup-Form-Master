@@ -77,6 +77,38 @@ p {
     }
 }
 
+
+/* 500px-700px dedicated design */
+@media (min-width: 29rem) and (max-width: 43.75rem){
+    main {
+        background-image: url(/images/bg-intro-mobile.png);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    input[type=text] {
+        border: 1px solid #b9b6d3;
+        width: 83%;
+        padding: 18px 35px;
+        border-radius: 5px;
+    }
+    input[type=submit] {
+        width: 99%;
+        padding: 18px 35px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 10px 6px -5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Text design */
+    .blue-span {
+        display: block;
+    }
+    .highlighted-consent {
+        font-weight: 700;
+        color: var(--Red);
+    }
+}
+
 /* Form design */
 .form-design {
     background-color: var(--White);
